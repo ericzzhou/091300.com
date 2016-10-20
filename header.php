@@ -1,28 +1,30 @@
+<?php include ("/data/config.php")?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
 	<meta charset="utf-8">
-	<title>陕西果园 - 致我爱吃水果的木娃宝宝</title>
+	<title><?php if(isset($website['title'])){echo $website['title'];}else{ echo $config['common']['website']['title'];}?> - <?php if(isset($website['note'])){echo $website['note'];}else{echo $config['common']['website']['note'];}?> </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="陕西水果大全">
-	<meta name="keywords" content="陕西水果">
-	<meta name="author" content="陕西果园">
+	<meta name="description" content="<?php if(isset($website['meta_description'])){echo $website['meta_description'];}else{ echo $config['common']['website']['meta']['description'];} ?>">
+	<meta name="keywords" content="<?php if(isset($website['meta_keywords'])) {echo $website['meta_keywords'];} else {echo $config['common']['website']['meta']['keywords'];} ?>">
+	<meta name="author" content="木娃果园">
 	<meta name="robots" content="index,follow">
 
 	<!-- Site CSS -->
 	<link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 	<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/css/messenger.css" rel="stylesheet">
+	<link href="/css/messenger-spinner.css" rel="stylesheet">
+	<link href="/css/messenger-theme-air.css" rel="stylesheet">
+	<link href="/css/messenger-theme-block.css" rel="stylesheet">
+	<link href="/css/messenger-theme-flat.css" rel="stylesheet">
+	<link href="/css/messenger-theme-future.css" rel="stylesheet">
+	<link href="/css/messenger-theme-ice.css" rel="stylesheet">
+
 	<link href="/css/site.min.css" rel="stylesheet">
-	<style>
-		.job-hot {
-			position: absolute;
-			color: #d9534f;
-			right: 0;
-			top: 15px;
-		}
-	</style>
+
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -40,6 +42,9 @@
 	<script src="http://cdn.bootcss.com/scrollup/2.4.0/jquery.scrollUp.min.js"></script>
 	<script src="http://cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
 	<script src="http://cdn.bootcss.com/jquery.matchHeight/0.5.2/jquery.matchHeight-min.js"></script>
+	<script src="/js/messenger.min.js"></script>
+	<script src="/js/messenger-theme-flat.js"></script>
+	<script src="/js/messenger-theme-future.js"></script>
 	<script src="/js/bootstrap-wysiwyg.js"></script>
 	<script src="/js/site.min.js"></script>
 </head>
@@ -54,12 +59,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-				<a class="navbar-brand hidden-sm" href="/">陕西果园</a>
+				<a class="navbar-brand hidden-sm" href="/">木娃果园</a>
 			</div>
 			<div class="navbar-collapse collapse" role="navigation">
 				
 				<ul class="nav navbar-nav navbar-right hidden-sm">
-					<li><a href="about/" >关于</a></li>
+					<li><a href="/" >关于</a></li>
 				</ul>
 			</div>
 		</div>

@@ -5,17 +5,16 @@
 					<h4>
 						<img src="/images/logo.png">
 					</h4>
-					<p>本网站所列开源项目的中文版文档全部由<a href="http://www.bootcss.com/">Bootstrap中文网</a>成员翻译整理，并全部遵循 <a href="http://creativecommons.org/licenses/by/3.0/"
-							target="_blank">CC BY 3.0</a>协议发布。</p>
+					<p>本网站所列水果品牌为网络收集， 致我爱吃水果的木娃宝宝。</p>
 				</div>
 				<div class="col-sm-6  col-lg-5 col-lg-offset-1">
 					<div class="row about">
 						<div class="col-xs-3">
 							<h4>关于</h4>
 							<ul class="list-unstyled">
-								<li><a href="about/">关于我们</a></li>
+								<li><a href="/">关于我们</a></li>
 								<!--<li><a href="http://www.bootcss.com/ad/">广告合作</a></li>-->
-								<li><a href="links/">友情链接</a></li>
+								<li><a href="/links/">友情链接</a></li>
 								<!--<li><a href="http://www.bootcss.com/hr/">招聘</a></li>-->
 							</ul>
 						</div>
@@ -46,8 +45,8 @@
 			<hr>
 			<div class="row footer-bottom">
 				<ul class="list-inline text-center">
-					<li><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11008151号</a></li>
-					<li>京公网安备11010802014853</li>
+					<li><a href="http://www.miibeian.gov.cn/" target="_blank">陕ICP备09022996号-5</a></li>
+<!--					<li>京公网安备11010802014853</li>-->
 				</ul>
 			</div>
 		</div>
