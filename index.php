@@ -1,85 +1,10 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-	<meta charset="utf-8">
-	<title>陕西果园</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。目前，Bootstrap最新版本为3.0 。Bootstrap中文网致力于为广大国内开发者提供详尽的中文文档、代码实例等，助力开发者掌握并使用这一框架。">
-	<meta name="keywords" content="Bootstrap,CSS,CSS框架,CSS framework,javascript,bootcss,bootstrap开发,bootstrap代码,bootstrap入门">
-	<meta name="author" content="陕西果园">
-	<meta name="robots" content="index,follow">
-	<meta name="application-name" content="bootcss.com">
-	<meta property="qc:admins" content="1603466166416277433363757477167">
-
-	<!-- Site CSS -->
-	<link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-	<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/site.min.css" rel="stylesheet">
-	<style>
-		.job-hot {
-			position: absolute;
-			color: #d9534f;
-			right: 0;
-			top: 15px;
-		}
-	</style>
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-	<!-- Favicons -->
-	<link rel="apple-touch-icon-precomposed" href="http://static.bootcss.com/www/assets/ico/apple-touch-icon-precomposed.png">
-	<link rel="shortcut icon" href="http://static.bootcss.com/www/assets/ico/favicon.png">
-
-	<script>
-      var _hmt = _hmt || [];
-    </script>
-
-	<link rel="canonical" href="http://www.bootcss.com/">
-	<script>
-    var qqgroup = '318630708';
-    </script>
-
-</head>
-
-<body>
-
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-				<a class="navbar-brand hidden-sm" href="http://www.bootcss.com/" onclick="_hmt.push(['_trackEvent', 'navbar', 'click', 'navbar-首页'])">陕西果园</a>
-			</div>
-			<div class="navbar-collapse collapse" role="navigation">
-				
-				<ul class="nav navbar-nav navbar-right hidden-sm">
-					<li><a href="about/" onclick="_hmt.push(['_trackEvent', 'navbar', 'click', 'about'])">关于</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-
-
+<?php ?>
+<?php include("header.php") ?>
+	
 	<div class="jumbotron masthead">
 		<div class="container">
 			<h1>陕西果园</h1>
-			<h2>简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</h2>
-			<p class="masthead-button-links">
-				联系QQ：287015545
-			</p>
-			
+			<h2>最全的陕西水果百科网站。</h2>
 		</div>
 	</div>
 	<!--<div class="bc-social">
@@ -99,8 +24,6 @@
 			</ul>
 		</div>
 	</div>-->
-
-
 	<div class="container projects">
 
 		<div class="projects-header page-header">
@@ -748,82 +671,5 @@
 	</div>
 	<!-- /.container -->
 
-
-	<footer class="footer ">
-		<div class="container">
-			<div class="row footer-top">
-				<div class="col-sm-6 col-lg-6">
-					<h4>
-						<img src="images/logo.png">
-					</h4>
-					<p>本网站所列开源项目的中文版文档全部由<a href="http://www.bootcss.com/">Bootstrap中文网</a>成员翻译整理，并全部遵循 <a href="http://creativecommons.org/licenses/by/3.0/"
-							target="_blank">CC BY 3.0</a>协议发布。</p>
-				</div>
-				<div class="col-sm-6  col-lg-5 col-lg-offset-1">
-					<div class="row about">
-						<div class="col-xs-3">
-							<h4>关于</h4>
-							<ul class="list-unstyled">
-								<li><a href="about/">关于我们</a></li>
-								<!--<li><a href="http://www.bootcss.com/ad/">广告合作</a></li>-->
-								<li><a href="links/">友情链接</a></li>
-								<!--<li><a href="http://www.bootcss.com/hr/">招聘</a></li>-->
-							</ul>
-						</div>
-						<div class="col-xs-3">
-							<h4>联系方式</h4>
-							<ul class="list-unstyled">
-								<li><a href="#" title="Bootstrap中文网官方微博" target="_blank">新浪微博</a></li>
-								<li><a href="mailto:287015545@qq.com">电子邮件</a></li>
-							</ul>
-						</div>
-						<!--<div class="col-xs-3">
-							<h4>旗下网站</h4>
-							<ul class="list-unstyled">
-								<li><a href="http://www.golaravel.com/" target="_blank">Laravel中文网</a></li>
-								<li><a href="http://www.ghostchina.com/" target="_blank">Ghost中国</a></li>
-							</ul>
-						</div>-->
-						<div class="col-xs-3">
-							<h4>赞助商</h4>
-							<ul class="list-unstyled">
-								<li><a href="http://www.aliyun.com/" target="_blank">阿里云</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-        
-			</div>
-			<hr>
-			<div class="row footer-bottom">
-				<ul class="list-inline text-center">
-					<li><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11008151号</a></li>
-					<li>京公网安备11010802014853</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-
-	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-	<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script src="http://cdn.bootcss.com/unveil/1.3.0/jquery.unveil.min.js"></script>
-	<script src="http://cdn.bootcss.com/scrollup/2.4.0/jquery.scrollUp.min.js"></script>
-	<script src="http://cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
-	<script src="http://cdn.bootcss.com/jquery.matchHeight/0.5.2/jquery.matchHeight-min.js"></script>
-	<script src="js/site.min.js"></script>
-
-	<script>
-      $(document).ready(function(){
-          $('#qqgroup').text(qqgroup);
-      });
-    </script>
-
-
-
-
-	<a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;">
-		<i class="fa fa-angle-up"></i>
-	</a>
-</body>
-
-</html>
+<?php include("footer.php") ?>
+	
