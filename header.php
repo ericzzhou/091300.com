@@ -47,6 +47,16 @@
 	<script src="/js/messenger-theme-future.js"></script>
 	<script src="/js/bootstrap-wysiwyg.js"></script>
 	<script src="/js/site.min.js"></script>
+
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?3385d6c3b993fbb8705a788dd4a73ec6";
+		var s = document.getElementsByTagName("script")[0]; 
+		s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </head>
 
 <body>
