@@ -15,6 +15,8 @@
 	<!-- Site CSS -->
 	<link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 	<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://cdn.bootcss.com/unslider/2.0.3/css/unslider-dots.css" rel="stylesheet">
+	<link href="http://cdn.bootcss.com/unslider/2.0.3/css/unslider.css" rel="stylesheet">
 	<link href="/css/messenger.css" rel="stylesheet">
 	<link href="/css/messenger-spinner.css" rel="stylesheet">
 	<link href="/css/messenger-theme-air.css" rel="stylesheet">
@@ -42,8 +44,9 @@
 	<script src="http://cdn.bootcss.com/scrollup/2.4.0/jquery.scrollUp.min.js"></script>
 	<script src="http://cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
 	<script src="http://cdn.bootcss.com/jquery.matchHeight/0.5.2/jquery.matchHeight-min.js"></script>
-	<script src="//code.jquery.com/jquery-latest.min.js"></script>
-	<script src="//unslider.com/unslider.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://unslider.com/unslider.js"></script>
+<!--	<script src="//cdn.bootcss.com/unslider/2.0.3/js/unslider-min.js"></script>-->
 	<script src="/js/messenger.min.js"></script>
 	<script src="/js/messenger-theme-flat.js"></script>
 	<script src="/js/messenger-theme-future.js"></script>
