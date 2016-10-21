@@ -1,4 +1,8 @@
-<?php include("../header.php") ?>
+<?php 
+include ("../data/config.php");
+$website['title']       = "关于 - ".$config['common']['website']['title'];
+include("../header.php");
+ ?>
 
 
 	<!-- Subhead

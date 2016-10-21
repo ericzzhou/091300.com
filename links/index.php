@@ -1,9 +1,10 @@
 <?php
-$website['title']       = "友情链接";
-include("../header.php");?>
+include ("../data/config.php");
+$website['title']       = "友情链接 - ".$config['common']['website']['title'];
+include("../header.php");
 
 
-
+?>
 
 	<!-- Subhead
 ================================================== -->
