@@ -1,26 +1,29 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: ericzhou
  * Date: 2016/10/20
  * Time: 19:38
  */
-include ("../../data/config.php");
-$website['title']       = "冬枣 - ".$config['common']['website']['title'];
-$website['meta_keywords']       = "冬枣,大荔冬枣";
-$website['meta_description']    = "享有“南荔枝，北冬枣，百果王”的盛名。平均单果重17.5g，最大单果重可达25g，状如苹果，有“小苹果”之称。果皮赭红光亮、皮薄肉脆、甘甜清香、营养丰富，可食率达95%。经科学分析，冬枣含有天门冬氨酸、苏氨酸等19种人体必需的氨基酸，与其它果品相比，维生素C的含量是苹果的70倍，梨的140倍，营养价值为“百果之冠”，被誉为“百果王”、“活维生素丸”。另外富含多种微量元素和矿物质，有防癌、防心脑血管疾病之功效，营养价值为百果之冠，倍受广大消费者青睐，被称为“天下奇果”";
-include("../../header.php");
-
-
+include "../../data/config.php";
+$website['title'] = "冬枣 - " . $config['common']['website']['title'];
+$website['meta_keywords'] = "冬枣,大荔冬枣";
+$website['meta_description'] = "享有“南荔枝，北冬枣，百果王”的盛名。平均单果重17.5g，最大单果重可达25g，状如苹果，有“小苹果”之称。果皮赭红光亮、皮薄肉脆、甘甜清香、营养丰富，可食率达95%。经科学分析，冬枣含有天门冬氨酸、苏氨酸等19种人体必需的氨基酸，与其它果品相比，维生素C的含量是苹果的70倍，梨的140倍，营养价值为“百果之冠”，被誉为“百果王”、“活维生素丸”。另外富含多种微量元素和矿物质，有防癌、防心脑血管疾病之功效，营养价值为百果之冠，倍受广大消费者青睐，被称为“天下奇果”";
+include "../../header.php";
 ?>
 
 
 	<!-- Subhead
 ================================================== -->
 	<header class="jumbotron subhead">
-		<div class="container">
-			<h1>友情链接</h1>
-			<p class="lead">送给木娃的陕西水果餐单。</p>
+		<div class="container banner">
+			<ul>
+        <li><h1>冬枣</h1>
+			<p class="lead"><?php echo $website['meta_description']?> </p></li>
+        <li>This is another slide.</li>
+        <li>This is a final slide.</li>
+    </ul>
 		</div>
 	</header>
 
@@ -33,11 +36,10 @@ include("../../header.php");
 			<div class="col-md-3 ">
 				<div id="toc" class="bc-sidebar">
 					<ul class="nav">
-						<li class="toc-h2"><a href="#toc0">开源技术</a></li>
-						<li class="toc-h2"><a href="#toc1">设计</a></li>
-						<li class="toc-h2"><a href="#toc2">前端技术</a></li>
-						<li class="toc-h2"><a href="#toc3">创业/招聘/活动</a></li>
-						<li class="toc-h2 toc-active"><a href="#toc4">云服务</a></li>
+						<li class="toc-h2"><a href="#toc0">产地情况</a></li>
+						<li class="toc-h2"><a href="#toc1">冬枣特性</a></li>
+						<li class="toc-h2"><a href="#toc2">种植情况</a></li>
+						<li class="toc-h2"><a href="#toc3">发展情况</a></li>
 					</ul>
 				</div>
 			</div>
@@ -46,55 +48,33 @@ include("../../header.php");
 				<article class="post page">
 					<section class="post-content">
 						<span id="toc0"></span>
-						<h2 id="-">开源技术</h2>
-						<ul>
-							<li><a href="http://www.golaravel.com/">Laravel中文网</a></li>
-							<li><a href="http://pkg.phpcomposer.com/">Packagist中国全量镜像</a></li>
-							<li><a href="http://www.phpcomposer.com/">Composer中文网</a></li>
-							<li><a href="http://segmentfault.com/">技术问答SegmentFault</a></li>
-							<li><a href="http://www.ghostchina.com/">Ghost中文网</a></li>
-							<li><a href="http://www.jquery123.com/">jQuery中文网</a></li>
-							<li><a href="http://www.expressjs.com.cn/">Expressjs开发框架</a></li>
-							<li><a href="http://www.nodeapp.cn/">Nodejs中文文档</a></li>
-							<li><a href="http://babeljs.cn/">Babel中文网</a></li>
-							<li><a href="http://www.emberjs.com.cn/">Ember.js</a></li>
-							<li><a href="http://lodashjs.com/">Lodash中文文档</a></li>
-						</ul>
+						<h2 id="-">产地情况</h2>
+						<div>	
+						大荔县属暖温带半干旱大陆性季风气候区，年均温13.4℃，平均日温差12.6℃，年≥10℃有效积温4312℃，年日照时数2385.2小时，积温、光照为关中之冠，光热资源丰富，地势平坦，土壤肥沃，灌溉条件优越，土壤比较肥沃，得天独厚的自然条件非常有利于鲜食枣的种植，大荔冬枣比我国同一纬度的其他地区冬枣要早熟15天，大棚冬枣比山东沾化提前上市一个多月，早熟的优势在全国突出，每年
+8月到次年元月都有冬枣上市，有效延长了冬枣销售时间，有效避免了集中上市的市场风险。近两年，在大棚冬枣成熟季节，出现了“断园”销售的订单农业模式，客商在地头根据每个枣园挂果情况和枣农现场确定整园收购价格，采摘时间由客商确定，但采摘之前枣农仍要负责对枣园进行正常管护。这种断园销售模式有效解决了冬枣“采青上市”的难题。大棚冬枣产品供不应求，市场前景广阔。大荔冬枣畅销北京、上海、广州、大连、浙江、镇江等大中城市，远销泰国、新加坡、马来西亚等国。
+						</div>
 						<span id="toc1"></span>
-						<h2 id="-">设计</h2>
-						<ul>
-							<li><a href="http://www.uisdc.com/">优秀网页设计联盟</a></li>
-							<li><a href="http://ux.etao.com/">一淘UX</a></li>
-						</ul>
+						<h2 id="-">冬枣特性</h2>
+						<div>
+						枣是大荔县沙苑地区的主要果品。其特点：弹性强、易漂浮、耐贮运。据大荔县旧志载：西汉时，大荔沙苑一带就栽植枣树，所产之枣以：个大、皮薄、核小、肉厚、富弹性、味脆甜、液汁多而扬名全国。1984年，县副食公司与浙江义乌县二十三里供销合作社联合兴办蜜枣加工厂，生产出金黄发亮的"金丝蜜枣"，畅销国内外，成为本县一项开发特产。2001年6月，国家林业局授予大荔县"中国枣乡"称号。大荔县也提出了建设"建设全国优质红枣第一县"，建设"全国最大的鲜食红枣基地"和"全国最大的红枣加工基地"的目标。
+庙上冬枣果实还含有较多的维生素A、维生素E、钾、钠、铁、铜等多种微量元素，有保持毛细血管畅通、防止血管壁脆性增加的功能，对于高血压、动脉粥样硬化病症有疗效，有防癌之功效。营养价值为百果之冠，有“百果王”之称。
+</div>
+
 						<span id="toc2"></span>
-						<h2 id="-">前端技术</h2>
-						<ul>
-							<li><a href="http://www.gruntjs.net/">Grunt中文网</a></li>
-							<li><a href="http://www.sasschina.com/">SASS中国</a></li>
-							<li><a href="http://iconfont.cn/">Iconfont</a></li>
-							<li><a href="http://www.gulpjs.com.cn/">Gulp中文网</a></li>
-						</ul>
+						<h2 id="-">种植情况</h2>
+						<div>
+						大荔光热条件优越，昼夜温差大，是我国红枣最佳生产地。大荔县将红枣作为发展特色经济的主导产业，不断推动红枣专业合作社发展。如今，全县红枣以每年两万多亩的速度递增，面积已由21万亩达到现今的42万亩，其中冬枣面积达15万亩。全县红枣栽培范围也由原来沙苑9个乡镇扩大到18个乡镇,从事枣业生产的群众达25万人。现今，全县红枣产量达40万吨，枣业总产值超过10亿元。
+大荔县依托区域资源优势，积极顺应市场需求，调整优化果业结构，科学引导，板块推进，集聚发展，到2011年，全县红枣面积42万亩，建成以中部洛灌区和黄河滩区为主体的冬枣基地20万亩，绿色认证11万亩，年产8万吨，产值3.5亿元，占到全县农业总产值的20%，人均枣业纯收入1766元，占当年农民人均纯收入30%，枣业已成为拉动大荔县域经济增长的强劲板块，成为富民强县的特色产业和支柱产业。
+大荔光、热、水资源充足，是红枣生产的最佳区域，栽植历史悠久。2001年被国家林业局命名为“中国枣乡”，被国家质量监督检验检疫总局列为全国第三批红枣生产标准化示范县。
+大荔县绿苑红枣专业合作社成立于二00七年，注册地址在大荔县城关镇花城路西北农资商城11栋2号。合作社以红枣为主导产业，运营模式为合作社+公司+基地+农户。拥有温室种植基地300亩，冷藏储运基地60亩，新型肥料生产和农资配送团队38人，果品代办及营销人员23名。至今在全市境内设立工作站46个，其中我县26个，发展社员1680人，带动农户7000余人。
+</div>
 						<span id="toc3"></span>
-						<h2 id="-">创业/招聘/活动</h2>
-						<ul>
-							<li><a href="http://www.nashangban.com/">哪上班</a></li>
-							<li><a href="http://huodong.tuicool.com/">推酷活动</a></li>
-						</ul>
-						<span id="toc4"></span>
-						<h2 id="-">云服务</h2>
-						<ul>
-							<li><a href="https://www.upyun.com/">又拍云</a></li>
-							<li><a href="http://www.ucloud.cn/">UCloud云主机</a></li>
-							<li><a href="https://mos.meituan.com/">美团云</a></li>
-							<li><a href="http://www.qcloud.com/">腾讯云</a></li>
-						</ul>
-						<hr>
-						<blockquote>
-							<p>如果您想和我们互换友链，请把你的网站地址、名称发到我们的邮箱：287015545@qq.com，并注明“XX网站交换友链”。谢谢。<br>我们的文字链接： <?php echo $config['common']['website']['title'] ?><br>网站地址：
-								<a
-									href="http://www.091300.com/">http://www.091300.com</a>
-							</p>
-						</blockquote>
+						<h2 id="-">发展情况</h2>
+						<div>
+						大荔县绿苑红枣专业合作社在全县境内建成有机、富硒冬枣、黄花菜、花生等有机认证基地3000亩，特别是在许庄镇周家村注册认证了出境水果生产基地5000亩，2011年联合天津冬枣研究所建成3000吨气调冷库。注册了“真社缘”、“忘忧草”等7个商标，并申报省级著名商标。产品先后荣获“渭南市名优特产”、“中国国际第二届林业博览会金奖”等荣誉。合作社连续三年被县委、县政府评为“先进合作社”，2010年被评为“市级十佳示范社”，2011年被评为“省级百强示范社”，2012年被评为“全国优秀示范社”，完成“出境水果果园注册登记”和“大荔冬枣”国家地理标志登记。
+大荔县从单一的水枣种植发展到冬枣、苹果、酥梨、葡萄、蔬菜等有大荔地域特色的农业生产；公司产品有绿苑西甜瓜、真社缘有机冬枣、有机果蔬、有机苹果、大荔土特产、红干枣等十几个品种，并将与温荔宏建公司强强联合，逐步建立和完善销售渠道，在深圳、厦门等沿海城市以及北京、天津、上海、广东等各省会城市设立大荔地理标志保护产品、富硒冬枣等特色有机农产品的专营柜台甚至专卖店，将社员农产品的销售真真正正的引上“农企对接、农超对接、农校对接”的商业模式，把该社打造成集种植、冷藏、运输、加工、销售为一体的国内一流合作社。
+大荔县以平王有机种植基地为示范样板，打造有机富硒冬枣基地，把合作社建设成为全国十佳示范社；明确公司有机栽培、富硒栽培理念，抱团打拼市场，使“真社缘”冬枣成为全球最好吃的冬枣；找准平台，加强合作，打造“绿苑真社缘，健康到永远”的大品牌，做大做强大荔冬枣产业，更好的为农村、农业、农民服务，引领群众共同走上更为宽敞的致富之路。
+						</div>
 
 					</section>
 				</article>
@@ -102,3 +82,4 @@ include("../../header.php");
 		</div>
 
 	</div>
+<?php include "../../footer.php"; ?>

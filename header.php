@@ -42,6 +42,8 @@
 	<script src="http://cdn.bootcss.com/scrollup/2.4.0/jquery.scrollUp.min.js"></script>
 	<script src="http://cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
 	<script src="http://cdn.bootcss.com/jquery.matchHeight/0.5.2/jquery.matchHeight-min.js"></script>
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script src="//unslider.com/unslider.js"></script>
 	<script src="/js/messenger.min.js"></script>
 	<script src="/js/messenger-theme-flat.js"></script>
 	<script src="/js/messenger-theme-future.js"></script>
