@@ -14,6 +14,14 @@ $config['common']['website']['note']        = "致我爱吃水果的木娃宝宝
 $config['common']['website']['meta']['description']         = "陕西水果大全";
 $config['common']['website']['meta']['keywords']            = "陕西水果大全";
 
+//db链接信息 begin
+$config['common']['db']['name']             = "mwgy";
+$config['common']['db']['host']             = "localhost";
+$config['common']['db']['port']             = "3306";
+$config['common']['db']['user_id']          = "root";
+$config['common']['db']['password']         = "eric@wendy";
+//db链接信息 end
+
 $config['fruits']['dongzao']['name']        = "大荔冬枣";
 $config['fruits']['dongzao']['ico']         = $fruits_ico_path."dongzao.png";
 $config['fruits']['dongzao']['description'] = "天下奇果、百果王、活维生素丸";
