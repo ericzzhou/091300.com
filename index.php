@@ -42,6 +42,12 @@ include("header.php");
 
     <div class="row">
 
+        <div class="col-md-12 text-center" >
+        
+        <h1> 作者已宕机
+        </h1>
+        </div>
+
         <?php foreach ($config["fruits"] as $key => $value) { ?>
             <div class="col-sm-6 col-md-4 col-lg-3 ">
                 <div class="thumbnail" style="height: 336px;">
