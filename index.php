@@ -44,7 +44,7 @@ include("header.php");
 
         <div class="col-md-12 text-center" >
         
-        <h1> 作者已宕机
+        <h1> 站长已宕机
         </h1>
         </div>
 
