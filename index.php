@@ -1,4 +1,5 @@
 <?php
+include "data/config.php";
 include("header.php");
 ?>
 

@@ -1,4 +1,6 @@
-<?php include ("/data/config.php")?>
+<?php 
+include ("/data/config.php");
+?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
