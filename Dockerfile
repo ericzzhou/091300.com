@@ -18,10 +18,10 @@ RUN apt-get update \
     libpng-dev
     
 # 安装 ipcache gd 图库
-RUN docker-php-ext-configure opcache --enable-opcache \
-    && docker-php-ext-install opcache gd
+#RUN docker-php-ext-configure opcache --enable-opcache \
+#    && docker-php-ext-install opcache gd
 # Copy configuration
-COPY ./Docker/php/ext/opcache.ini $PHP_INI_DIR/conf.d/
+# COPY ./Docker/php/ext/opcache.ini $PHP_INI_DIR/conf.d/
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
@@ -31,7 +31,7 @@ WORKDIR /var/www/html/
 COPY . /var/www/html/
 
 RUN chown www-data:www-data /var/www/html/ -R
-RUN chmod +x tasks/docker-compile.sh
+#RUN chmod +x tasks/docker-compile.sh
 
 # USER www-data:www-data
 
